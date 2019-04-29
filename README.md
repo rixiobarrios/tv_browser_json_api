@@ -29,7 +29,7 @@ Run `node db/getPeople.js`. This will retrieve a list of 20 random people from
 the API. If it fails, wait 10 seconds and try again.
 
 - Using the newly retrieved people data (in `db/people.json`), build out the
-  Person schema.
+  Person model. Include all of the properties.
 - Build out the Show model. Include the following properties:
   - url
   - name
