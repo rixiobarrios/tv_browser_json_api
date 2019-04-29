@@ -27,6 +27,9 @@ For this lab you'll be building a JSON API using express, from scratch. The
 provided starter files are here just to give you a guideline - you must create
 everything that isn't the seed data.
 
+> All this data was pulled from the TV Maze API. It's pretty great!
+> http://www.tvmaze.com/api
+
 Run `node db/getPeople.js`. This will retrieve a list of 20 random people from
 the API. If it fails, wait 10 seconds and try again.
 
@@ -43,19 +46,25 @@ the API. If it fails, wait 10 seconds and try again.
   - weight
   - all image links
   - summary
-- Write the logic to seed the database with both datasets.
+- Write the logic to seed the database with both datasets. You can do each
+  individually if its easier.
 - Set up your express server, routes, and controller. Put `/api` as the prefix
   to all your routes.
 
 Your server should have the following routes/endpoints. How you choose to name
 them is up to you. You should follow the standard HTTP verb / action convention,
-e.g. using GET for retrieving data.
+e.g. using GET for retrieving data and POST for writing data.
 
 - List all shows/people
 - List a single show/person by id
 - List a single show/person by name
+- Create a show/person
 - Update a single show/person by id
 - Delete a show/person by id
+
+This means you will have a total of 12 routes! 6 for each model.
+
+Remember to use Postman, it's a good friend to rely on during these trying times.
 
 ## Bonus
 
