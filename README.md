@@ -70,7 +70,8 @@ e.g. using GET for retrieving data.
 
 Add a third model for episodes. Reference the episodes to the shows by id. Then
 pick 10 or so shows and populate your database with them, using
-[axios](https://github.com/axios/axios) to help you make requests and the new Episode model to write to the database.
+[axios](https://github.com/axios/axios) to help you make requests and the new
+Episode model to write to the database.
 
 ## Plagiarism
 
