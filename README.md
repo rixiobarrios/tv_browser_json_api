@@ -2,11 +2,6 @@
 
 # Express JSON API lab
 
-Use this template to structure your READMEs for labs.
-
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)).
-
 ## Prerequisites
 
 - Express routes
@@ -64,7 +59,8 @@ e.g. using GET for retrieving data and POST for writing data.
 
 This means you will have a total of 12 routes! 6 for each model.
 
-Remember to use Postman, it's a good friend to rely on during these trying times.
+Remember to use Postman, it's a good friend to rely on during these trying
+times.
 
 ## Bonus
 
@@ -77,10 +73,10 @@ Remember to use Postman, it's a good friend to rely on during these trying times
 
 ## Double Bonus
 
-Add a third model for episodes. Reference the episodes to the shows by id. Then
-pick 10 or so shows and populate your database with them, using
-[axios](https://github.com/axios/axios) to help you make requests and the new
-Episode model to write to the database.
+Add a third model for episodes. Reference the episodes to the shows by id (you
+may have to add the id back in to the shows). Then pick 10 or so shows and
+populate your database with them, using [axios](https://github.com/axios/axios)
+to help you make requests and the new Episode model to write to the database.
 
 ## Plagiarism
 
